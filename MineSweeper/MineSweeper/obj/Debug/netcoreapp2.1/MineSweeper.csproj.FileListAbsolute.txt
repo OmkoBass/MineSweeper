@@ -1,0 +1,11 @@
+D:\Code\C#\MineSweeper\MineSweeper\bin\Debug\netcoreapp2.1\MineSweeper.deps.json
+D:\Code\C#\MineSweeper\MineSweeper\bin\Debug\netcoreapp2.1\MineSweeper.runtimeconfig.json
+D:\Code\C#\MineSweeper\MineSweeper\bin\Debug\netcoreapp2.1\MineSweeper.runtimeconfig.dev.json
+D:\Code\C#\MineSweeper\MineSweeper\bin\Debug\netcoreapp2.1\MineSweeper.dll
+D:\Code\C#\MineSweeper\MineSweeper\bin\Debug\netcoreapp2.1\MineSweeper.pdb
+D:\Code\C#\MineSweeper\MineSweeper\obj\Debug\netcoreapp2.1\MineSweeper.csprojAssemblyReference.cache
+D:\Code\C#\MineSweeper\MineSweeper\obj\Debug\netcoreapp2.1\MineSweeper.csproj.CoreCompileInputs.cache
+D:\Code\C#\MineSweeper\MineSweeper\obj\Debug\netcoreapp2.1\MineSweeper.AssemblyInfoInputs.cache
+D:\Code\C#\MineSweeper\MineSweeper\obj\Debug\netcoreapp2.1\MineSweeper.AssemblyInfo.cs
+D:\Code\C#\MineSweeper\MineSweeper\obj\Debug\netcoreapp2.1\MineSweeper.dll
+D:\Code\C#\MineSweeper\MineSweeper\obj\Debug\netcoreapp2.1\MineSweeper.pdb
