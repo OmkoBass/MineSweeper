@@ -8,7 +8,7 @@ namespace MineSweeper
         static void createTable(int[,] mat, int size)
         {
             Random r = new Random();
-            for(int i = 0; i < mat.GetLenght(); i++)
+            for(int i = 0; i < size; i++)
             {
                 for(int j = 0; j < size; j++)
                 {
