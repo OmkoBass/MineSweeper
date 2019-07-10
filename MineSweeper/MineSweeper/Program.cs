@@ -5,12 +5,12 @@ namespace MineSweeper
     class Program
     {
         
-        static void createTable(int[,] mat, int size)
+        static void createTable(int[,] mat)
         {
             Random r = new Random();
-            for(int i = 0; i < size; i++)
+            for(int i = 0; i < mat.GetLength(0); i++)
             {
-                for(int j = 0; j < size; j++)
+                for(int j = 0; j < mat.GetLength(0); j++)
                 {
                     int temp = r.Next(0, 8);
                     if (temp == 4)
@@ -25,13 +25,13 @@ namespace MineSweeper
             }
         }
 
-        static void displayTable(int [,] mat, int size)
+        static void displayTable(int [,] mat)
         {
             Console.WriteLine("BROJ 9 ZNACI MINA!");
-            for(int i = 0; i < size; i++)
+            for(int i = 0; i < mat.GetLength(0); i++)
             {
                 Console.Write(i + ": ");
-                for(int j = 0; j < size; j++)
+                for(int j = 0; j < mat.GetLength(0); j++)
                 {
                     Console.Write(mat[i, j] + " ");
                 }
@@ -40,12 +40,12 @@ namespace MineSweeper
             Console.WriteLine("\n");
         }
 
-        static void displayDanger(int[,] mat, int size)
+        static void displayDanger(int[,] mat)
         {
             int p, q;
-            for (int i = 0; i < size; i++)
+            for (int i = 0; i < mat.GetLength(0); i++)
             {
-                for (int j = 0; j < size; j++)
+                for (int j = 0; j < mat.GetLength(0); j++)
                 {
                     if (mat[i, j] == 9)
                     {
@@ -73,10 +73,10 @@ namespace MineSweeper
         static void Main(string[] args)
         {
             int[,] matrix = new int[9,9];
-            createTable(matrix, 9);
-            displayTable(matrix, 9);
-            displayDanger(matrix, 9);
-            displayTable(matrix, 9);
+            createTable(matrix);
+            displayTable(matrix);
+            displayDanger(matrix);
+            displayTable(matrix);
         }
     }
 }
